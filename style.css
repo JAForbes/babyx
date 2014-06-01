@@ -1,0 +1,66 @@
+@media (max-width: 500px) {
+	body{
+		background-color: black;
+	}
+	.header {
+		position: absolute;
+		width:80%;
+		max-width:400px;
+		left:10%;
+	}
+	.art {
+		top:20%;
+		position: absolute;
+		width:100%;
+	}
+	a {
+		color:white;
+	}
+	a:visited{
+		color:white;
+	}
+	.links {
+		position: absolute;
+		bottom:0.5em;
+		width: 100%;
+		text-align: center;
+	}
+	.links a {
+		font-family: Helvetica;
+		font-size: 1.3em;
+		margin: 1.5em;
+	}
+}
+
+@media (min-width: 501px){
+	body {
+		background-color: black;
+	}
+	.header {
+		position: absolute;
+		width:20%;
+		left:40%;
+	}
+	.art {
+		position: absolute;
+		width:40%;
+		left:30%;
+	}
+	a {
+		color:white;
+	}
+	a:visited{
+		color:white;
+	}
+	.links {
+		position: absolute;
+		bottom:0.5em;
+		width: 99%;
+		text-align: center;
+	}
+	.links a {
+		font-family: Helvetica;
+		font-size: 1.3em;
+		margin: 1.5em;
+	}
+}
